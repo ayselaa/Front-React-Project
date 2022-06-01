@@ -1,0 +1,71 @@
+.collapse{
+    display: flex;
+    justify-content: center;
+    
+    
+}
+.collapse img{
+    width: 100px;
+    margin-right: 40px;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    position: fixed !important;
+    top: 0;
+}
+
+.top-element{
+    width: 40%;
+    display: flex;
+    
+}
+
+.nav-link {
+    color: white;
+    
+}
+
+.social-media ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    
+}
+
+.social-media ul li{
+    padding: 15px;
+    color: white;
+    margin-top: 10px;
+}
+
+.btn{
+background: white;
+
+}
+
+.btn{
+    position: relative;
+    text-transform: uppercase;
+    transition: all .15s ease;
+    transition-property: all;
+    transition-duration: 0.15s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+    will-change: transform;
+    letter-spacing: .025em;
+    font-size: .875rem;
+    padding: 5px;
+    color: #4b60d4; 
+    padding: 10px;
+
+}
+.btnaw{
+    margin-right: 3px;
+    color: #5e72e4;
+}
+
+
+
