@@ -18,7 +18,7 @@ function Navbar() {
       <div className="collapse navbar-collapse" id="navbarNav">
           <img src="https://demos.creative-tim.com/argon-design-system-angular/assets/img/brand/argon-white.png" alt="Logo" />
          
-          <div className="top-element">
+          <div className="top-el ement">
         <ul className="navbar-nav">
           <li className="nav-item">
             <a className="nav-link" href="#">

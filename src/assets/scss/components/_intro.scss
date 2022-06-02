@@ -1,10 +1,18 @@
+
+section{
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+}
+
 .intro {
+    position: relative;
     width: 100%;
     height: 100vh;
     background: linear-gradient(150deg,#281483 15%,#8f6ed5 70%,#d782d9 94%);
 display: flex;
 justify-content: center;
 align-items: center;
+clip-path: polygon();
 }
 
 .center-work{
@@ -13,6 +21,7 @@ align-items: center;
     min-height: 1px;
     padding-right: 15px;
     padding-left: 15px;
+    z-index: 2;
     
 }
 
@@ -43,8 +52,7 @@ align-items: center;
 .buttons{
     display: flex;
     margin-top: 40px;
-   
-    
+    border: none;  
 }
 
 .btn1{
@@ -94,6 +102,177 @@ margin-right: 5px;
     width: 100px;
     margin-left: 10px;
 }
+.separator svg{
+    fill: white;
+}
+ .separator-skew {
+    height: 60px;
+}
+
+.separator-bottom {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+
+svg{
+    color: white;
+}
+
+
+.shape-primary {
+    background: linear-gradient(150deg,#281483 15%,#8f6ed5 70%,#d782d9 94%);
+}
+
+.shape {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    span {
+        position: absolute;
+        height: 120px;
+        width: 120px;
+        border-radius: 50%;
+    }
+}
+.shape-style-1 span:nth-child(2) {
+    right: 4%;
+    top: 10%;
+    background: rgba(255,255,255,.1);
+}
+.shape-style-1 .span-50 {
+    height: 50px;
+    width: 50px;
+}
+.shape span {
+    position: absolute;
+}
+.shape-style-1 span:nth-child(3) {
+    top: 280px;
+    right: 5.66666%;
+    background: rgba(255,255,255,.3);
+}
+.shape-style-1 .span-50 {
+    height: 50px;
+    width: 50px;
+}
+.shape-primary span:nth-child(3) {
+    background: rgba(255, 255, 255, 0.15)
+}
+.shape span {
+    position: absolute;
+}
+ .shape-style-1 span:nth-child(4) {
+    top: 320px;
+    right: 7%;
+    background: rgba(255,255,255,.15);
+}
+.shape-style-1 .span-75 {
+    height: 75px;
+    width: 75px;
+}
+ .shape-primary span:nth-child(4) {
+    background: rgba(255, 255, 255, 0.15)
+}
+.shape-style-1 span {
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+}
+ .shape span {
+    position: absolute;
+}
+
+ .shape-style-1 span:nth-child(5) {
+    top: 38%;
+    left: 1%;
+    right: auto;
+    background: rgba(255,255,255,.05);
+}
+.shape-style-1 .span-100 {
+    height: 100px;
+    width: 100px;
+}
+
+//5 ci span
+
+ .shape-primary span:nth-child(5) {
+    background: rgba(255, 255, 255, 0.15)
+}
+.shape-style-1 span {
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+}
+ .shape span {
+    position: absolute;
+}
+
+//6-ci span 
+
+ .shape-style-1 span:nth-child(6) {
+    width: 200px;
+    height: 200px;
+    top: 44%;
+    left: 10%;
+    right: auto;
+    background: rgba(255,255,255,.15);
+}
+.shape-style-1 .span-75 {
+    height: 75px;
+    width: 75px;
+}
+ .shape-style-1 span {
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+}
+ .shape span {
+    position: absolute;
+}
+
+//7 ci span
+ .shape-style-1 span:nth-child(7) {
+    bottom: 50%;
+    right: 36%;
+    background: rgba(255,255,255,.04);
+}
+.shape-style-1 .span-50 {
+    height: 50px;
+    width: 50px;
+}
+ .shape-style-1 span {
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+}
+ .shape span {
+    position: absolute;
+}
+
+//8-ci span
+ .shape-style-1 span:nth-child(8) {
+    bottom: 70px; 
+    right: 2%;
+    background: rgba(255,255,255,.2);
+}
+.shape-style-1 .span-100 {
+    height: 100px;
+    width: 100px;
+}
+ .shape-style-1 span {
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+}
+ .shape span {
+    position: absolute;
+}
+
+
 
 
 
