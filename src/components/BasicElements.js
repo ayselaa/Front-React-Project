@@ -93,25 +93,26 @@ function BasicElements() {
         <small>LINKS</small>
       </div>
       <div className="link-buttons">
-        <a type="button" class="btn btn-link text-default">
+        <a type="button" className="btn btn-link text-default">
           DEFAULT
         </a>
-        <a type="button" class="btn btn-link text-primary">
+        <a type="button" className="btn btn-link text-primary">
           PRIMARY
         </a>
-        <a type="button" class="btn btn-link text-info">
+        <a type="button" className="btn btn-link text-info">
           INFO
         </a>
-        <a type="button" class="btn btn-link text-success">
+        <a type="button" className="btn btn-link text-success">
           SUCCESS
         </a>
-        <a type="button" class="btn btn-link text-warning">
+        <a type="button" className="btn btn-link text-warning">
           WARNING
         </a>
-        <a type="button" class="btn btn-link text-danger">
+        <a type="button" className="btn btn-link text-danger">
           DANGER
         </a>
       </div>
+   
     </section>
   );
 }

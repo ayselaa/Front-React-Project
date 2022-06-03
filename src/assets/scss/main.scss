@@ -1,8 +1,11 @@
 @import './abstracts/variables';
 @import './abstracts/mixins';
 @import './layout/navigation';
-@import './components/buttons';
 @import './layout/sidebar';
 @import "./pages/home";
 @import './components/intro';
-@import'./components/basicelements'
+@import'./components/basicelements';
+@import'./components/forms';
+@import'./components/menu';
+@import'./components/colornav'
+

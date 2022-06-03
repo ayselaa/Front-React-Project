@@ -2,7 +2,7 @@ import React from "react";
 
 function Navbar() {
   return (
-    <nav className="navbar navbar-expand-lg">
+    <nav className="nav-bar navbar navbar-expand-lg">
       <button
         className="navbar-toggler"
         type="button"
