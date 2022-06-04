@@ -3,7 +3,8 @@ import BasicElements from '../components/BasicElements';
 import Intro from '../components/Intro';
 import Form from '../components/Form';
 import Menu from '../components/Menu';
-import Colornav from '../components/Colornav'
+import Colornav from '../components/Colornav';
+import Tabs from '../components/Tabs';
 
 function Home() {
   return (
@@ -13,6 +14,7 @@ function Home() {
       <Form/>
       <Menu/>
       <Colornav/>
+      <Tabs/>
     </div>
   )
 }
