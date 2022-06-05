@@ -5,6 +5,8 @@ import Form from '../components/Form';
 import Menu from '../components/Menu';
 import Colornav from '../components/Colornav';
 import Tabs from '../components/Tabs';
+import Alerts from '../components/Alerts'
+import Typography from '../components/Typography';
 
 function Home() {
   return (
@@ -15,6 +17,8 @@ function Home() {
       <Menu/>
       <Colornav/>
       <Tabs/>
+      <Alerts/>
+      <Typography/>
     </div>
   )
 }

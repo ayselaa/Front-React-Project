@@ -4,7 +4,7 @@ function Tabs() {
   return (
     <section>
       <div className="container">
-        <div class="row p-4 d-flex justify-content-center" >
+        <div class="row  d-flex justify-content-center" >
         <h3 className="h3classs">Tabs</h3>
           <div class="col-sm-6">
             <div className="words">
