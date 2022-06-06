@@ -615,6 +615,21 @@ h3 {
   color: #2dce89;
 }
 
+.minnos-text {
+  text-transform: uppercase;
+  color: #3b3636;
+  font-size: small;
+}
+
+.shadov-g {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.tab-content {
+  padding: 20px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
 .myalerts {
   color: #32325d;
   font-weight: lighter;
@@ -664,5 +679,38 @@ h3 {
 
 .headings {
   margin-top: 30px;
+}
+
+.h3-col9 {
+  color: black;
+}
+
+.lanqidi-1 {
+  font-size: 50px;
+}
+
+.lanqidi-2 {
+  font-size: 40px;
+}
+
+.lanqidi-3 {
+  font-size: 30px;
+}
+
+.lanqidi-4 {
+  font-size: 20px;
+}
+
+.lanq {
+  color: #32325d;
+}
+
+.myredd {
+  color: red;
+  font-size: 22px;
+}
+
+.duman-h6 {
+  color: #525f7f;
 }
 /*# sourceMappingURL=main.css.map */

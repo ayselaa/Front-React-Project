@@ -7,6 +7,8 @@ import Colornav from '../components/Colornav';
 import Tabs from '../components/Tabs';
 import Alerts from '../components/Alerts'
 import Typography from '../components/Typography';
+import DisplayTitles from '../components/DisplayTitles';
+import SpecalizedTitles from '../components/SpecalizedTitles';
 
 function Home() {
   return (
@@ -19,6 +21,8 @@ function Home() {
       <Tabs/>
       <Alerts/>
       <Typography/>
+      <DisplayTitles/>
+      <SpecalizedTitles/>
     </div>
   )
 }
