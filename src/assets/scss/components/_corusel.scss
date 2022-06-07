@@ -1,0 +1,20 @@
+.this-section{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-color: #778bfb;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+
+
+.carousel {
+    position: relative;
+}
+
+.this-section{
+    clip-path: polygon(0 1%, 100% 0%, 100% 90%, 0% 100%);
+}
+

@@ -9,6 +9,11 @@ import Alerts from '../components/Alerts'
 import Typography from '../components/Typography';
 import DisplayTitles from '../components/DisplayTitles';
 import SpecalizedTitles from '../components/SpecalizedTitles';
+import Paragraphys from '../components/Paragraphys';
+import Images from '../components/Images';
+import Corusel from '../components/Corusel';
+import Nucleo from '../components/Nucleo'
+
 
 function Home() {
   return (
@@ -23,7 +28,12 @@ function Home() {
       <Typography/>
       <DisplayTitles/>
       <SpecalizedTitles/>
+      <Paragraphys/>
+      <Images/>
+      <Corusel/>
+      <Nucleo/>
     </div>
+
   )
 }
 

@@ -1,14 +1,18 @@
 import React, { useEffect } from "react";
+import { Link } from "react-router-dom";
 
 function Navbar() {
   useEffect(() => {
     var prevScrollpos = window.pageYOffset;
     window.onscroll = function () {
       var currentScrollPos = window.pageYOffset;
-      if (prevScrollpos > currentScrollPos) {
+      if (currentScrollPos == 0) {
+        document.getElementById("navbar").style.backgroundColor = "transparent";
+      } else if (prevScrollpos > currentScrollPos) {
         document.getElementById("navbar").style.top = "0";
+        document.getElementById("navbar").style.backgroundColor = "#172b4d";
       } else {
-        document.getElementById("navbar").style.top = "-90px";
+        document.getElementById("navbar").style.top = "-100px";
       }
       prevScrollpos = currentScrollPos;
     };
@@ -28,10 +32,12 @@ function Navbar() {
         <span className="navbar-toggler-icon"></span>
       </button>
       <div className="collapse navbar-collapse" id="navbarNav">
+        <Link to={'/'}>
         <img
           src="https://demos.creative-tim.com/argon-design-system-angular/assets/img/brand/argon-white.png"
           alt="Logo"
         />
+        </Link>
 
         <div className="top-el ement">
           <ul className="navbar-nav">
@@ -40,10 +46,24 @@ function Navbar() {
                 Components
               </a>
             </li>
-            <li className="nav-item">
+            <li className="nav-item dropdown">
               <a className="nav-link" href="#">
                 Examples
               </a>
+              <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                <li>
+                  <Link className="dropdown-item" to="/landing">Landing</Link>
+                </li>
+                <li>
+                <Link className="dropdown-item" to="/profile">Profile</Link>
+                </li>
+                <li>
+                <Link className="dropdown-item" to="/login">Login</Link>
+                </li>
+                <li>
+                  <Link className="dropdown-item" to="register">Register</Link>
+                </li>
+              </ul>
             </li>
           </ul>
         </div>

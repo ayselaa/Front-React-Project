@@ -83,25 +83,8 @@ margin-right: 5px;
 .redtext{
     color: white;
 }
-.text-warning {
-    color: #fb6340!important;
-    margin-right: 7px;
-}
 
-.small-text{
-    margin-top: 3rem!important;
-}
 
-.small-text small{
-    color: white;
-    
-}
-
-.small-text img{
-    height: 25px;
-    width: 100px;
-    margin-left: 10px;
-}
 .separator svg{
     fill: white;
 }
@@ -272,15 +255,15 @@ svg{
     position: absolute;
 }
 
+.img-prof{
+    max-width:30px !important;
+}
 
-
-
-
-
-
-
-
-
+.btn-info {
+    color: #fff;
+    background-color: #11cdef;
+    border-color: #11cdef;
+}
 
 
 
