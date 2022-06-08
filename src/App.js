@@ -3,7 +3,6 @@ import "../src/assets/css/main.css";
 import Home from "./pages/Home";
 import Layout from "./pages/Layout";
 import Profile from "./pages/Profile";
-import Landing from "./pages/Landing";
 import Login from "./pages/Login";
 import Register from "./pages/Register";
 
@@ -13,7 +12,6 @@ function App() {
         <Routes>
           <Route path="/" element={<Layout />}>
             <Route index element={<Home />} />
-            <Route path="landing" element={<Landing />} />
             <Route path="profile" element={<Profile />} />
             <Route path="login" element={<Login />} />
             <Route path="register" element={<Register />} />

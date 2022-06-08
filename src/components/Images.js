@@ -13,41 +13,43 @@ function Images() {
             </small>
             <img
               src="https://demos.creative-tim.com/argon-design-system-angular/assets/img/theme/team-1-800x800.jpg"
-              class="rounded-3 jj"
+              className="rounded-3 jj"
+              alt="Avatar"
             />
           </div>
 
           <div className="col-sm-3">
             <small className="d-block text-uppercase font-weight-bold mb-4">
-            CIRCLE IMAGE
+              CIRCLE IMAGE
             </small>
             <img
               src="https://demos.creative-tim.com/argon-design-system-angular/assets/img/theme/team-2-800x800.jpg"
-              class="rounded-circle jj"
+              className="rounded-circle jj"
+              alt="Avatar"
             />
           </div>
 
           <div className="col-sm-3">
             <small className="d-block text-uppercase font-weight-bold mb-4">
-            RAISED
+              RAISED
             </small>
             <img
               src="https://demos.creative-tim.com/argon-design-system-angular/assets/img/theme/team-3-800x800.jpg"
-              class="rounded-3 jj"
+              className="rounded-3 jj"
+              alt="Avatar"
             />
           </div>
 
           <div className="col-sm-3">
             <small className="d-block text-uppercase font-weight-bold mb-4">
-            CIRCLE RAISED
-
+              CIRCLE RAISED
             </small>
             <img
               src="https://demos.creative-tim.com/argon-design-system-angular/assets/img/theme/team-4-800x800.jpg"
-              class="rounded-circle jj"
+              className="rounded-circle jj"
+              alt="Avatar"
             />
           </div>
-
         </div>
       </div>
     </section>

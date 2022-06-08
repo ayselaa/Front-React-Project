@@ -6,10 +6,7 @@ function Corusel() {
       <div className="container">
         <div className="row d-flex justify-content-center">
           <div className="col-lg-5">
-
-              <h1 className="cor-h1">Bootstrap carousel</h1>
-            
-
+            <h1 className="cor-h1">Bootstrap carousel</h1>
 
             <p className="cor-p">
               Argon Design System comes with four pre-built pages to help you
@@ -17,11 +14,10 @@ function Corusel() {
               good to go.
             </p>
 
-
-            <button type="button" class="cor-btnn">SEE ALL COMPONENTS</button>
-
+            <button type="button" class="cor-btnn">
+              SEE ALL COMPONENTS
+            </button>
           </div>
-
 
           <div className="col-lg-6 mb-lg-auto">
             <div className="rounded shadow-lg owerflow-hidden transform-perspective-right">
@@ -57,12 +53,14 @@ function Corusel() {
                     <img
                       src="https://demos.creative-tim.com/argon-design-system-angular/assets/img/theme/img-1-1200x1000.jpg"
                       className="d-block w-100"
+                      alt="Avatar"
                     />
                   </div>
                   <div className="carousel-item">
                     <img
                       src="https://demos.creative-tim.com/argon-design-system-angular/assets/img/theme/img-2-1200x1000.jpg"
                       className="d-block w-100"
+                      alt="Avatar"
                     />
                   </div>
                 </div>
@@ -93,9 +91,6 @@ function Corusel() {
               </div>
             </div>
           </div>
-
-
-          
         </div>
       </div>
     </section>

@@ -8,13 +8,14 @@ function Intro() {
           <img
             className="m-auto"
             src="https://demos.creative-tim.com/argon-design-system-angular/assets/img/brand/argon-white.png"
+            alt="Avatar"
           />
           <p className="card-text mx-auto">
             A beautiful Design System for Bootstrap 4 and Angular 7.
           </p>
           <span className="tex">It's Free and Open Source.</span>
           <div className="buttons d-flex justify-content-center">
-            <a className="btn1">
+            <a className="btn1" href>
               <i className="fa-solid fa-cloud-arrow-down"></i>DOWNLOAD ANGULAR
             </a>
             <div className="blacktext">
@@ -29,25 +30,32 @@ function Intro() {
         </div>
         <div className="small-text d-flex justify-content-center">
           <small>*proudly coded by</small>
-          <img src="https://demos.creative-tim.com/argon-design-system-angular/assets/img/brand/creativetim-white-slim.png" />
+          <img src="https://demos.creative-tim.com/argon-design-system-angular/assets/img/brand/creativetim-white-slim.png" alt="Avatar" />
         </div>
       </div>
-     
+
       <div _ngcontent-c3="" className="shape shape-style-1 shape-primary">
-        <span _ngcontent-c3="" className="span-150"></span>
-        <span _ngcontent-c3="" className="span-50"></span>
-        <span _ngcontent-c3="" className="span-50"></span>
-        <span _ngcontent-c3="" className="span-75"></span>
-        <span _ngcontent-c3="" className="span-100"></span>
-        <span _ngcontent-c3="" className="span-75"></span>
-        <span _ngcontent-c3="" className="span-50"></span>
-        <span _ngcontent-c3="" className="span-100"></span>
-        </div>
-    
-      <span _ngcontent-c3="" className="span-50"><span _ngcontent-c3="" className="span-150"></span></span>
+        <span className="span-150"></span>
+        <span className="span-150"></span>
+        <span className="span-150"></span>
+        <span className="span-150"></span>
+        <span className="span-150"></span>
+        <span className="span-150"></span>
+        <span className="span-150"></span>
+        <span className="span-50"></span>
+        <span className="span-50"></span>
+        <span className="span-75"></span>
+        <span className="span-100"></span>
+        <span className="span-75"></span>
+        <span className="span-50"></span>
+        <span className="span-100"></span>
+      </div>
+
+      <span  className="span-50">
+        <span className="span-150"></span>
+      </span>
       <div className="separator separator-bottom seperator-skew zindex-100 ">
         <svg
-          _ngcontent-c3=""
           preserveAspectRatio="none"
           version="1.1"
           viewBox="0 0 2560 100"
@@ -56,7 +64,6 @@ function Intro() {
           y="10"
         >
           <polygon
-            _ngcontent-c3=""
             className="fill-white"
             points="2560 0 2560 100 0 100"
           ></polygon>

@@ -6,7 +6,7 @@ function Navbar() {
     var prevScrollpos = window.pageYOffset;
     window.onscroll = function () {
       var currentScrollPos = window.pageYOffset;
-      if (currentScrollPos == 0) {
+      if (currentScrollPos === 0) {
         document.getElementById("navbar").style.backgroundColor = "transparent";
       } else if (prevScrollpos > currentScrollPos) {
         document.getElementById("navbar").style.top = "0";
@@ -32,36 +32,44 @@ function Navbar() {
         <span className="navbar-toggler-icon"></span>
       </button>
       <div className="collapse navbar-collapse" id="navbarNav">
-        <Link to={'/'}>
-        <img
-          src="https://demos.creative-tim.com/argon-design-system-angular/assets/img/brand/argon-white.png"
-          alt="Logo"
-        />
+        <Link to={"/"}>
+          <img
+            src="https://demos.creative-tim.com/argon-design-system-angular/assets/img/brand/argon-white.png"
+            alt="Logo"
+          />
         </Link>
 
         <div className="top-el ement">
           <ul className="navbar-nav">
             <li className="nav-item">
-              <a className="nav-link" href="#">
+              <a className="nav-link" href>
                 Components
               </a>
             </li>
             <li className="nav-item dropdown">
-              <a className="nav-link" href="#">
+              <a className="nav-link" href>
                 Examples
               </a>
               <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
                 <li>
-                  <Link className="dropdown-item" to="/landing">Landing</Link>
+                  <Link className="dropdown-item" to="/landing">
+                    Landing
+                  </Link>
                 </li>
                 <li>
-                <Link className="dropdown-item" to="/profile">Profile</Link>
+                  <Link className="dropdown-item" to="/profile">
+                    Profile
+                  </Link>
                 </li>
                 <li>
-                <Link className="dropdown-item" to="/login">Login</Link>
+                  <Link className="dropdown-item" to="/login">
+                    Login
+                  </Link>
                 </li>
                 <li>
-                  <Link className="dropdown-item" to="register">Register</Link>
+                  <Link className="dropdown-item" to="register">
+                    Register
+                  </Link>
                 </li>
               </ul>
             </li>
